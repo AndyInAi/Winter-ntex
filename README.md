@@ -8,7 +8,7 @@ if [ ! -d ~/Winter-ntex ]; then cd ~/ && git clone https://github.com/AndyInAi/W
 
 # 运行
 
-cd ~/Winter-ntex && chmod +x /Winter-ntex && Winter-ntex
+cd ~/Winter-ntex && chmod +x ./Winter-ntex && ./Winter-ntex
 
 # Starting HTTP server at http://0.0.0.0:8080/
 
