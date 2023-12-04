@@ -3,7 +3,7 @@ use ntex::web;
 
 #[web::get("/")]
 async fn hello() -> impl web::Responder {
-    web::HttpResponse::Ok().body("<h1>Hello Winter! Hello Ntex</h1>")
+    web::HttpResponse::Ok().body("<h1>Hello Winter! Hello Ntex!</h1>")
 }
 
 #[web::post("/echo")]
